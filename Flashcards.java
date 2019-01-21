@@ -46,6 +46,7 @@ public class Flashcards extends Application {
         //LLENAMOS EL ARRAY CON IMAGENES
         for (int i = 0; i < n; i++){                        
             imagenes[i] = new Image(getClass().getResourceAsStream(i+".jpg"));
+            System.out.println("P4")
         }
         
         
